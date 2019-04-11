@@ -1,6 +1,6 @@
 {
   "name": "mnr-graphql-client",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Opinionated wrapper around apollo-client",
   "main": "index.js",
   "engines": {
