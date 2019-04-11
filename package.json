@@ -1,0 +1,43 @@
+{
+  "name": "mnr-graphql-client",
+  "version": "0.0.0",
+  "description": "Opinionated wrapper around apollo-client",
+  "main": "index.js",
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "scripts": {
+    "test": "semistandard --verbose | snazzy"
+  },
+  "author": {
+    "name": "Alexey Gorokhov",
+    "email": "alexey.gorokhov@icloud.com",
+    "url": ""
+  },
+  "license": "MIT",
+  "dependencies": {
+    "apollo-cache-inmemory": "^1.5.1",
+    "apollo-client": "^2.5.1",
+    "apollo-link": "^1.2.11",
+    "apollo-link-http": "^1.5.14",
+    "graphql": "^14.2.1",
+    "node-fetch": "^2.3.0",
+    "verror": "^1.10.0"
+  },
+  "devDependencies": {
+    "semistandard": "^13.0.1",
+    "snazzy": "^8.0.0"
+  },
+  "keywords": [
+    "graphql client",
+    "graphql"
+  ],
+  "homepage": "https://github.com/AlexeyGorokhov/mnr-graphql-client",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AlexeyGorokhov/mnr-graphql-client"
+  },
+  "bugs": {
+    "url": "https://github.com/AlexeyGorokhov/mnr-graphql-client/issues"
+  }
+}
